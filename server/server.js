@@ -19,7 +19,7 @@ let app = express();
 let port = 3001;
 
 // CORS 설정
-let allowedOrigins = ['http://localhost:3000'];
+let allowedOrigins = ['http://52.79.92.156:3001'];
 let corsOptions = {
   origin: function (origin, callback) {
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
